@@ -96,3 +96,16 @@
     });
   }
 })();
+
+
+// Services carousel: show four cards on desktop and allow the remaining cards to scroll into view.
+document.querySelectorAll('[data-scroll-services]').forEach((button) => {
+  button.addEventListener('click', () => {
+    const track = document.getElementById('services-track');
+    if (!track) return;
+    const card = track.querySelector('.service-card');
+    const gap = 15;
+    const distance = card ? card.getBoundingClientRect().width + gap : track.clientWidth;
+    track.scrollBy({ left: Number(button.dataset.scrollServices) * distance * 2, behavior: 'smooth' });
+  });
+});

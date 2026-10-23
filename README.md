@@ -103,3 +103,8 @@ Do not add a domain until you own/control it and have configured the DNS records
 ## Notes
 
 This is a static website starter, not legal advice or a guarantee of business outcomes. Review all claims, policy text and third-party integrations before publishing.
+
+
+## Services carousel
+
+The Services section contains six service cards. Four are visible at a time on wide screens, with the remaining cards available through horizontal scrolling and the left/right controls. On smaller screens, the cards adapt to a narrower horizontal carousel. The brand uses `assets/logo-icon.svg`, and the browser tab icon is `assets/favicon.svg`.

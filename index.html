@@ -18,7 +18,7 @@
   <header class="site-header" id="top">
     <div class="container nav-wrap">
       <a class="brand" href="#home" aria-label="EmpowerByData home">
-        <span class="brand-mark" aria-hidden="true"><span></span><span></span><span></span><span></span></span>
+        <img class="brand-logo-icon" src="assets/logo-icon.svg" alt="" width="32" height="32">
         <span class="brand-copy"><strong>EmpowerByData</strong><small>Better Data. Better Decisions.</small></span>
       </a>
       <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav" aria-label="Open navigation">
@@ -102,12 +102,21 @@
     <section class="section-pad section-white" id="services">
       <div class="container">
         <div class="section-heading"><p class="eyebrow">What we can help with</p><h2>Practical services. <span>Meaningful progress.</span></h2><p>Start with one problem to solve, then build from there.</p></div>
-        <div class="services-grid">
+        <div class="services-carousel-wrap">
+          <div class="services-carousel-controls" aria-label="Service navigation">
+            <p class="services-scroll-hint">Explore our services <span aria-hidden="true">→</span></p>
+            <div class="services-scroll-buttons">
+              <button class="service-scroll-btn" type="button" data-scroll-services="-1" aria-label="Scroll services left">←</button>
+              <button class="service-scroll-btn" type="button" data-scroll-services="1" aria-label="Scroll services right">→</button>
+            </div>
+          </div>
+          <div class="services-grid" id="services-track" tabindex="0" aria-label="Six EmpowerByData services">
           <article class="service-card"><div class="service-icon teal"><svg viewBox="0 0 24 24"><ellipse cx="12" cy="5" rx="7" ry="3"/><path d="M5 5v6c0 1.7 3.1 3 7 3s7-1.3 7-3V5M5 11v6c0 1.7 3.1 3 7 3s7-1.3 7-3v-6"/></svg></div><span class="service-index">01</span><h3>Data foundations</h3><p>Bring scattered information into a clearer, more reliable structure.</p><ul><li>Data organisation and cleanup</li><li>Spreadsheet improvement</li><li>Useful trackers and registers</li><li>Consistent data definitions</li></ul><a href="#contact" class="service-more" aria-label="Ask about Data Foundations">Discuss this service ↗</a></article>
           <article class="service-card"><div class="service-icon blue"><svg viewBox="0 0 24 24"><path d="M3 3h18v14H3zM7 21h10M12 17v4"/><path d="m6 13 4-4 3 2 5-5M15 6h3v3"/></svg></div><span class="service-index">02</span><h3>Reporting & visibility</h3><p>Make the important numbers easier to understand and act on.</p><ul><li>KPI tracking and definitions</li><li>Management reporting</li><li>Dashboard creation</li><li>Performance visibility</li></ul><a href="#contact" class="service-more" aria-label="Ask about Reporting and Visibility">Discuss this service ↗</a></article>
           <article class="service-card"><div class="service-icon violet"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="m19.4 15 .1.1 1.2.9-1.5 2.6-1.4-.6a8 8 0 0 1-1.7 1l-.2 1.5h-3l-.3-1.5a8 8 0 0 1-1.7-1l-1.4.6L6 16l1.2-1a8 8 0 0 1 0-2l-1.2-1 1.5-2.6 1.4.6a8 8 0 0 1 1.7-1l.3-1.5h3l.2 1.5a8 8 0 0 1 1.7 1l1.4-.6 1.5 2.6-1.2 1a8 8 0 0 1 .1 2Z"/></svg></div><span class="service-index">03</span><h3>Automation & efficiency</h3><p>Reduce repetitive work and make everyday processes flow better.</p><ul><li>Workflow improvement</li><li>Repeat-task reduction</li><li>Reporting automation</li><li>Tool-to-tool handoffs</li></ul><a href="#contact" class="service-more" aria-label="Ask about Automation and Efficiency">Discuss this service ↗</a></article>
           <article class="service-card"><div class="service-icon orange"><svg viewBox="0 0 24 24"><circle cx="9" cy="8" r="3"/><circle cx="17" cy="9" r="2.5"/><path d="M3 20v-2a6 6 0 0 1 12 0v2M15 15a5 5 0 0 1 6 5"/></svg></div><span class="service-index">04</span><h3>Business enablement</h3><p>Build confidence so people can use reports and tools day to day.</p><ul><li>KPI coaching</li><li>Practical workshops</li><li>Guidance and documentation</li><li>Adoption support</li></ul><a href="#contact" class="service-more" aria-label="Ask about Business Enablement">Discuss this service ↗</a></article>
           <article class="service-card"><div class="service-icon mint"><svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M7 3v4M17 3v4M7 11h4M7 15h7M16 14l2 2 3-4"/></svg></div><span class="service-index">05</span><h3>Fractional support</h3><p>Get a flexible analytics partner without hiring a full-time team.</p><ul><li>One-off projects</li><li>Ongoing monthly support</li><li>Fractional analytics partnership</li><li>Performance advisory</li></ul><a href="#contact" class="service-more" aria-label="Ask about Fractional Support">Discuss this service ↗</a></article>
+          <article class="service-card"><div class="service-icon blue"><svg viewBox="0 0 24 24" aria-hidden="true"> <path d="M4 5.5A2.5 2.5 0 0 1 6.5 3H20v17H6.5A2.5 2.5 0 0 1 4 17.5z"/><path d="M4 6h12M8 10h8M8 14h6M8 18h7"/></svg></div> <span class="service-index">06</span> <h3>Analytics Coaching &amp; Practical Learning</h3> <p> Build practical data skills through structured coaching, hands-on exercises and real-world analytics projects. Learn to turn data into meaningful business insights. </p> <ul> <li>Excel, SQL and data analysis fundamentals</li> <li>Power BI dashboards and KPI reporting</li> <li>Advanced analytics and data modelling</li> <li>Portfolio projects and personalised feedback</li> </ul> <a href="#contact" class="service-more" aria-label="Ask about Analytics Coaching and Practical Learning"> Explore Coaching ↗</a></article>          </div>
         </div>
       </div>
     </section>
@@ -190,7 +199,7 @@
 
   <footer class="site-footer">
     <div class="container footer-main">
-      <div class="footer-brand"><a class="brand brand-light" href="#home"><span class="brand-mark" aria-hidden="true"><span></span><span></span><span></span><span></span></span><span class="brand-copy"><strong>EmpowerByData</strong><small>Better Data. Better Decisions.</small></span></a><p>Helping organisations make better use of the data and tools they already have.</p><div class="footer-social"><a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn (replace with your profile)">in</a><a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" aria-label="Facebook (replace with your page)">f</a></div></div>
+      <div class="footer-brand"><a class="brand brand-light" href="#home"><img class="brand-logo-icon" src="assets/logo-icon.svg" alt="" width="32" height="32"><span class="brand-copy"><strong>EmpowerByData</strong><small>Better Data. Better Decisions.</small></span></a><p>Helping organisations make better use of the data and tools they already have.</p><div class="footer-social"><a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn (replace with your profile)">in</a><a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" aria-label="Facebook (replace with your page)">f</a></div></div>
       <div class="footer-col"><h3>Explore</h3><a href="#who-we-help">Who we help</a><a href="#what-we-do">What we do</a><a href="#how-we-work">How we work</a><a href="#about">About</a></div>
       <div class="footer-col"><h3>Services</h3><a href="#services">Data foundations</a><a href="#services">Reporting & visibility</a><a href="#services">Automation</a><a href="#services">Fractional support</a></div>
       <div class="footer-col"><h3>Resources</h3><a href="#insights">Insights</a><a href="#case-studies">Illustrative examples</a><a href="#contact">Get in touch</a><a href="privacy.html">Privacy notice</a></div>
