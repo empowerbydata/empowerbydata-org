@@ -1,110 +1,82 @@
-# EmpowerByData website
+EmpowerByData
+Better Data. Better Decisions.
 
-A responsive, single-page website starter for EmpowerByData, built with plain HTML, CSS and JavaScript. It is designed to be easy to edit in VS Code and deploy to GitHub Pages.
+EmpowerByData helps small businesses, solopreneurs and not-for-profit organisations make better use of the data and tools they already have.
 
-## What's included
+   We believe that better decisions don't always require expensive systems or complex technology. Practical data solutions, meaningful reporting and smarter processes can help organisations improve visibility, work more efficiently and move forward with confidence.
 
-- `index.html` — main landing page and all nine navigation destinations
-- `css/empowerbydata.css` — shared responsive styling and design tokens
-- `js/script.js` — mobile navigation, active-section navigation, form validation and Formspree submission
-- `assets/favicon.svg` — simple brand favicon
-- `privacy.html` and `terms.html` — editable policy-page starting points
+🌐 Website: https://empowerbydata.com
+📧 Email: info@empowerbydata.com
 
-No build tools, package installation or framework are required.
+About EmpowerByData
 
-## 1. Run locally
+EmpowerByData provides practical data, analytics, reporting and business enablement solutions.
 
-1. Download and unzip the project.
-2. Open the `empowerbydata-website` folder in VS Code.
-3. Recommended: install the **Live Server** extension in VS Code.
-4. Right-click `index.html` and choose **Open with Live Server**.
-5. The site should open in your browser. You can also open `index.html` directly, but a local server is a better preview environment.
+Our approach focuses on understanding business needs first, then identifying opportunities to make existing information, tools and processes work better.
 
-## 2. Before publishing
+We aim to make data more accessible, useful and meaningful, particularly for organisations that may not have dedicated data or analytics teams.
 
-### Contact form (required)
+What We Do
 
-The form uses Formspree so a static GitHub Pages site can receive enquiries without running its own backend.
+Our services cover six key areas:
 
-1. Create an account at [Formspree](https://formspree.io/) and create a form.
-2. Copy the form endpoint, which looks like `https://formspree.io/f/xxxxxxxx`.
-3. In `index.html`, find:
-   ```html
-   <form id="contact-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
-   ```
-4. Replace `YOUR_FORM_ID` with the real ID supplied by Formspree. Do not paste your account password or API secret into the website.
-5. Submit a test enquiry from the live preview and confirm it arrives. Check spam/junk folders and any verification steps required by Formspree.
-6. The setup reminder will hide automatically when a valid-looking endpoint is present. A real submission test is still necessary.
+1. Data Foundations: Helping organisations organise, structure and make better use of their business data.
 
-The browser-side form validation is a usability aid, not a security control. Configure spam protection and notification settings in Formspree.
+2. Reporting & Visibility: Creating meaningful reports, dashboards and insights that support informed decision-making.
 
-### Replace placeholders
+3. Automation & Efficiency: Identifying opportunities to reduce repetitive tasks and improve everyday business processes.
 
-Search the project for these items and update them before launch:
+4. Business Enablement: Helping teams make effective use of their existing data, systems and digital tools.
 
-- `hello@empowerbydata.example` — replace with your real business email.
-- Social links — replace the generic LinkedIn and Facebook URLs with your real pages, or remove those links.
-- Consultant illustration — replace with a professional photo if you want one. The current image is an original SVG illustration, not a real person.
-- Privacy and terms — review and customise both templates for your business, actual data handling and applicable requirements.
-- Insights — starter summaries are included and expandable. Review, edit and expand them to reflect your expertise.
-- Case studies — clearly marked illustrative scenarios. Do not present them as completed client projects or real measured outcomes. Replace with permissioned, evidence-based case studies when available.
-- Brand and service wording — adjust to match your actual offers and availability.
+5. Flexible Analytics Partnership: Providing practical and flexible analytics support aligned with business needs and priorities.
 
-### Fonts and external requests
+6. Analytics Coaching & Practical Learning: Building confidence, capability and practical analytical skills through guided learning and coaching.
 
-Google Fonts is used for Manrope and DM Sans. If you prefer no third-party font request, remove the Google Fonts `<link>` elements from `index.html` and rely on system fallback fonts.
+Who We Help
 
-## 3. Publish with GitHub Pages
+We work with organisations looking for practical and accessible ways to improve how they use information and technology.
 
-1. Sign in to [GitHub](https://github.com/) and create a new repository, for example `empowerbydata-website`.
-2. Upload the **contents** of this project folder to the repository root. `index.html` must be at the root, not nested inside another folder.
-3. Commit the files to the default branch, usually `main`.
-4. In the repository, open **Settings → Pages**.
-5. Under **Build and deployment**, select **Deploy from a branch**.
-6. Choose branch `main` and folder `/(root)`, then save.
-7. Wait for the Pages deployment to finish. GitHub will show the published URL in the Pages settings.
-8. Open the published URL and test every navigation item, page link, mobile menu and the contact form.
+Our intended audience includes:
 
-GitHub Pages is static hosting. The included Formspree integration provides form delivery; it is not handled by GitHub Pages itself.
+Small and growing businesses
+Solopreneurs and independent professionals
+Not-for-profit organisations
 
-## 4. Connect a custom domain (optional)
+Teams looking to improve reporting and data confidence
 
-- Register a domain with a domain registrar.
-- In repository **Settings → Pages → Custom domain**, enter your domain and follow GitHub's current DNS instructions.
-- Add the required DNS records at your registrar.
-- Allow time for DNS and HTTPS provisioning. Enable **Enforce HTTPS** when it becomes available.
-- Test both the root domain and `www` variant if you configure both.
+Our Approach
+We believe in keeping things practical.
+Our approach is built around: Understanding the business problem before recommending a solution.
+Making better use of existing data and tools.
+Focusing on meaningful outcomes rather than unnecessary complexity.
+Developing solutions that are appropriate to the organisation's needs and resources.
+Supporting people and teams in building confidence with data.
 
-Do not add a domain until you own/control it and have configured the DNS records.
+Website
 
-## 5. Maintenance and quality checklist
+The EmpowerByData website provides information about our services, approach, business focus and enquiry options.
+Visit: https://empowerbydata.com
 
-- [ ] Check mobile, tablet and desktop layouts.
-- [ ] Test keyboard navigation and visible focus indicators.
-- [ ] Check all section links and external links.
-- [ ] Submit a real test contact form and confirm delivery.
-- [ ] Replace the example email and social links.
-- [ ] Finalise privacy and terms pages.
-- [ ] Label all illustrative content accurately.
-- [ ] Add your own profile image and business details.
-- [ ] Review page title, description and favicon.
-- [ ] Check spelling, accessibility, performance and contrast before launch.
+The website also includes our Privacy Policy and Terms of Use.
 
-## Design system
+Get in Touch
 
-- Deep navy: `#0D2545`
-- Teal: `#00A3A3`
-- Soft orange: `#F4A261`
-- Background: `#F8FAFC`
-- Text: `#1F2937`
-- Type: Manrope headings, DM Sans body
-- Responsive breakpoints: 1100px, 900px and 620px
+Have a question or exploring ways to improve your organisation's use of data?
+We welcome enquiries and opportunities to discuss practical solutions.
 
-## Notes
+Email: info@empowerbydata.com
+Website: https://empowerbydata.com
+WhatsApp: Australian and United States contact options are available through our website.
 
-This is a static website starter, not legal advice or a guarantee of business outcomes. Review all claims, policy text and third-party integrations before publishing.
+Copyright and Website Use
 
+© 2026 EmpowerByData. All rights reserved.
 
-## Services carousel
+This repository contains materials associated with the EmpowerByData website and business.
 
-The Services section contains six service cards. Four are visible at a time on wide screens, with the remaining cards available through horizontal scrolling and the left/right controls. On smaller screens, the cards adapt to a narrower horizontal carousel. The brand uses `assets/logo-icon.svg`, and the browser tab icon is `assets/favicon.svg`.
+The website content, original design, branding, graphics and other proprietary materials must not be copied, reproduced, republished, redistributed or used commercially without prior written permission from the respective rights holder.
+
+Access to this repository does not grant permission to reproduce or reuse its contents.
+
+EmpowerByData
+Making data work better for your business.
