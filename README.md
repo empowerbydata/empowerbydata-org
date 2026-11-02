@@ -1,4 +1,5 @@
 EmpowerByData
+
 Better Data. Better Decisions.
 
 EmpowerByData helps small businesses, solopreneurs and not-for-profit organisations make better use of the data and tools they already have.
