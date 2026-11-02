@@ -237,13 +237,13 @@ article.container h3 {
 }
 
 .email-icon {
-    background: #EAF0F8;
     color: #0D2545;
+    background: #EAF0F7;
 }
 
 .whatsapp-icon {
+    color: #16834A;
     background: #E8F7EF;
-    color: #168B55;
 }
 
 .contact-option-text {
@@ -612,6 +612,61 @@ article.container h3 {
     .contact-form-card {
         padding: 22px 17px;
     }
+}
+
+/* Existing CSS rules above */
+
+/* Contact option layout */
+.contact-option {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 14px;
+    width: 100%;
+}
+
+/* Keep icons contained */
+.contact-option-icon {
+    width: 44px;
+    height: 44px;
+    min-width: 44px;
+    flex: 0 0 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+}
+
+/* Fix SVG icon dimensions */
+.contact-option-icon svg {
+    width: 22px;
+    height: 22px;
+    max-width: 22px;
+    max-height: 22px;
+    display: block;
+    flex: 0 0 22px;
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 1.7;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+
+/* Keep text beside the icon */
+.contact-option-text {
+    flex: 1;
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.contact-option-text p {
+    margin: 0;
+}
+
+.contact-option-text a {
+    overflow-wrap: anywhere;
 }
 
 .site-footer { background:#0b203b; color:#c3d0df; padding-top:55px; }.footer-main { display:grid; grid-template-columns:1.6fr 1fr 1.2fr 1fr; gap:55px; padding-bottom:45px; }.brand-light .brand-copy strong { color:white; }.brand-light .brand-copy small { color:#8dd9d2; }.brand-light .brand-mark span:nth-child(4) { background:#b8dce6; }.footer-brand>p { color:#aebfd0; font-size:.8rem; line-height:1.8; max-width:270px; margin:18px 0; }.footer-social { display:flex; gap:8px; }.footer-social a { width:31px; height:31px; display:grid; place-items:center; border-radius:8px; border:1px solid #35506c; color:white; font-weight:800; font-size:.8rem; }.footer-social a:hover { background:var(--teal-dark); }.footer-col { display:flex; flex-direction:column; align-items:flex-start; gap:10px; }.footer-col h3 { color:white; font-size:.86rem; letter-spacing:0; margin-bottom:7px; }.footer-col a { color:#b7c7d6; font-size:.77rem; }.footer-col a:hover,.footer-bottom a:hover { color:#7be0d5; }.footer-bottom { border-top:1px solid #29415b; min-height:64px; display:flex; align-items:center; justify-content:space-between; gap:18px; color:#8fa4b8; font-size:.68rem; }.footer-bottom div { display:flex; gap:17px; }.footer-bottom a { color:#b6c6d5; }
