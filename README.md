@@ -19,17 +19,11 @@ We aim to make data more accessible, useful and meaningful, particularly for org
 What We Do
 
 Our services cover six key areas:
-
 1. Data Foundations: Helping organisations organise, structure and make better use of their business data.
-
 2. Reporting & Visibility: Creating meaningful reports, dashboards and insights that support informed decision-making.
-
 3. Automation & Efficiency: Identifying opportunities to reduce repetitive tasks and improve everyday business processes.
-
 4. Business Enablement: Helping teams make effective use of their existing data, systems and digital tools.
-
 5. Flexible Analytics Partnership: Providing practical and flexible analytics support aligned with business needs and priorities.
-
 6. Analytics Coaching & Practical Learning: Building confidence, capability and practical analytical skills through guided learning and coaching.
 
 Who We Help
