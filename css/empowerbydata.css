@@ -321,12 +321,12 @@ article.container h3 {
 /* Main white panel containing all three contact options */
 
 .contact-details-panel {
-    background: #FFFFFF;
-    border: 1px solid #E2E8F0;
-    border-radius: 16px;
-    padding: 25px 26px;
-    margin-top: 24px;
-    box-shadow: 0 6px 20px rgba(13, 37, 69, .07);
+    background: transparent;
+    border: none;
+    border-radius: 0;
+    padding: 0;
+    margin-top: 0;
+    box-shadow: none;
 }
 
 /* Discovery conversation */
@@ -354,8 +354,8 @@ article.container h3 {
 }
 
 .contact-details-panel .discovery-icon svg {
-    width: 32px;
-    height: 32px;
+    width: 25px;
+    height: 25px;
     fill: none;
     stroke: var(--navy);
     stroke-width: 1.8;
@@ -574,14 +574,14 @@ article.container h3 {
     }
 
     .contact-details-panel .discovery-icon {
-        width: 46px;
-        height: 46px;
+        width: 25px;
+        height: 25px;
         min-width: 46px;
     }
 
     .contact-details-panel .discovery-icon svg {
-        width: 27px;
-        height: 27px;
+        width: 25px;
+        height: 25px;
     }
 
     .contact-details-panel .discovery-content b {
@@ -674,3 +674,206 @@ article.container h3 {
 @media (max-width: 900px) { .section-pad { padding:75px 0; }.nav-wrap { min-height:72px; }.menu-toggle { display:block; margin-left:auto; }.primary-nav { display:none; position:absolute; top:100%; left:0; right:0; padding:12px 24px 22px; background:white; border-bottom:1px solid var(--line); box-shadow:0 18px 25px #0d254514; align-items:stretch; flex-direction:column; gap:0; }.primary-nav.open { display:flex; }.nav-link { padding:12px 0; font-size:.88rem; }.nav-link.active:after { bottom:6px; right:auto; width:35px; }.nav-contact { margin-top:7px; text-align:center; padding:12px; }.hero-grid { grid-template-columns:1fr; }.hero-copy { max-width:720px; }.hero-visual { max-width:700px; width:100%; margin:15px auto 0; }.audience-grid { gap:14px; }.card-body { padding:20px; }.split-section,.about-grid { grid-template-columns:1fr; gap:35px; }.split-copy { max-width:700px; }.lifecycle-card { max-width:760px; width:100%; margin:auto; }.process-grid { grid-template-columns:repeat(3,1fr); row-gap:32px; }.process-grid:before { display:none; }.insights-grid { grid-template-columns:repeat(2,1fr); }.contact-grid { grid-template-columns:1fr; gap:35px; }.contact-copy { max-width:700px; }.contact-form-card { max-width:760px; width:100%; }.footer-main { gap:30px; grid-template-columns:1.5fr 1fr 1fr; }.footer-brand { grid-row:span 2; } }
 @media (max-width: 620px) { .container { width:min(100% - 32px, 520px); }.section-pad { padding:60px 0; }h1 { font-size:2.55rem; }.hero { padding-top:55px; }.hero-lede { font-size:1.02rem; }.hero-body { font-size:.9rem; }.hero-actions { align-items:stretch; flex-direction:column; }.hero-actions .btn { width:100%; }.trust-note { line-height:1.8; }.flow-row { margin:0 0 16px; }.line-icon { width:42px; height:42px; }.line-icon svg { width:20px; height:20px; }.flow-node { font-size:.62rem; }.flow-arrow { font-size:.85rem; }.dash-content { padding:10px; }.dash-sidebar { width:35px; gap:13px; }.dash-logo { width:23px; height:23px; }.dash-top h3 { font-size:.75rem; }.period-pill { font-size:.48rem; }.metric-card { padding:8px; min-height:95px; }.metric-card>strong { font-size:1rem; }.metric-card>small { font-size:.54rem; }.donut { width:48px; height:48px; }.donut:before { width:34px; height:34px; }.donut span { font-size:.65rem; }.dash-bottom { grid-template-columns:1fr; }.insight-panel { display:none; }.floating-note { right:0; }.audience-grid,.case-grid { grid-template-columns:1fr; }.illustration { height:180px; }.card-body p { min-height:0; }.section-heading { margin-bottom:30px; }.heading-row { display:block; }.heading-row .btn { margin-top:20px; }.split-section { gap:25px; }.lifecycle-card { display:grid; grid-template-columns:1fr 1fr; gap:18px; padding:22px; }.lifecycle-path,.life-arrow { display:none; }.life-step { padding:10px 0; }.services-grid { grid-auto-columns:minmax(78%, 1fr); } .services-carousel-controls { margin-bottom:12px; }.service-card { padding:22px; }.service-card>p { min-height:0; }.process-grid { grid-template-columns:repeat(2,1fr); gap:27px 16px; }.process-step p { font-size:.75rem; }.insights-grid { grid-template-columns:1fr; }.insight-art { height:190px; }.insight-content p { min-height:0; }.article-overviews { grid-template-columns:1fr; }.about-grid { gap:25px; }.profile-placeholder { width:220px; }.values-grid { gap:12px; }.contact-grid { gap:25px; }.contact-form-card { padding:22px 17px; }.form-row { grid-template-columns:1fr; }.discuss-list { grid-template-columns:1fr; }.discuss-list>b { grid-column:auto; }.footer-main { grid-template-columns:1fr 1fr; gap:28px 18px; }.footer-brand { grid-column:1/-1; grid-row:auto; }.footer-bottom { padding:20px 0; flex-direction:column; align-items:flex-start; gap:9px; }.footer-bottom div { margin-top:3px; } }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior:auto; } *,*::before,*::after { animation-duration:.01ms!important; animation-iteration-count:1!important; transition-duration:.01ms!important; } }
+
+/* =========================================
+   EMPOWERBYDATA CONTACT SECTION UPDATE
+========================================= */
+
+/* Keep the original two-column contact layout */
+.contact-grid {
+    display: grid;
+    grid-template-columns: .9fr 1.1fr;
+    gap: 45px;
+    align-items: start;
+}
+
+.contact-copy {
+    min-width: 0;
+}
+
+/* Right-hand contact options panel */
+.contact-options-card {
+    width: 100%;
+    min-width: 0;
+    padding: 30px;
+    background: #FFFFFF;
+    border: 1px solid #E1ECEF;
+    border-radius: 19px;
+    box-shadow: 0 14px 36px rgba(13, 37, 69, .08);
+}
+
+/* Contact option rows */
+.contact-options-card .contact-option {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 14px;
+    width: 100%;
+    min-width: 0;
+    padding: 8px 0;
+}
+
+/* Consistent icon dimensions */
+.contact-options-card .contact-option-icon {
+    width: 46px;
+    height: 46px;
+    min-width: 46px;
+    flex: 0 0 46px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+}
+
+/* Consistent SVG sizing */
+.contact-options-card .contact-option-icon svg {
+    display: block;
+    width: 24px;
+    height: 24px;
+    max-width: 24px;
+    max-height: 24px;
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 1.8;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+
+/* Icon backgrounds */
+.contact-options-card .calendly-icon,
+.contact-options-card .email-icon {
+    color: var(--navy);
+    background: #EAF0F8;
+}
+
+/* Contact text */
+.contact-options-card .contact-option-text {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    gap: 5px;
+    min-width: 0;
+}
+
+.contact-options-card .contact-option-text b {
+    color: var(--navy);
+    font-size: .95rem;
+    font-weight: 800;
+    line-height: 1.4;
+}
+
+.contact-options-card .contact-option-text p {
+    margin: 0;
+    color: #53657a;
+    font-size: .82rem;
+    line-height: 1.55;
+}
+
+.contact-options-card .contact-option-text a {
+    color: var(--navy);
+    font-size: .84rem;
+    font-weight: 700;
+    line-height: 1.45;
+    text-decoration: none;
+    overflow-wrap: anywhere;
+}
+
+.contact-options-card .contact-option-text a:hover {
+    color: var(--teal-dark);
+    text-decoration: underline;
+}
+
+/* Divider between Calendly and email */
+.contact-options-card .contact-panel-divider {
+    height: 1px;
+    width: 100%;
+    background: #E2E8F0;
+    margin: 22px 0;
+}
+
+/* Keep header and footer logo/name aligned */
+.brand {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    flex-shrink: 0;
+}
+
+.brand-logo-icon {
+    display: block;
+    width: 38px;
+    height: 38px;
+    flex: 0 0 38px;
+    object-fit: contain;
+}
+
+.brand-copy {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 1.2;
+}
+
+/* Tablet */
+@media (max-width: 900px) {
+    .contact-grid {
+        grid-template-columns: 1fr;
+        gap: 32px;
+    }
+
+    .contact-options-card {
+        max-width: 760px;
+    }
+}
+
+/* Mobile */
+@media (max-width: 620px) {
+    .contact-options-card {
+        padding: 22px 18px;
+    }
+
+    .contact-options-card .contact-option {
+        align-items: flex-start;
+        gap: 12px;
+    }
+
+    .contact-options-card .contact-option-icon {
+        width: 44px;
+        height: 44px;
+        min-width: 44px;
+        flex-basis: 44px;
+    }
+
+    .contact-options-card .contact-option-text b {
+        font-size: .9rem;
+    }
+
+    .contact-options-card .contact-option-text p {
+        font-size: .78rem;
+    }
+}
+
+/* Arrange the four discussion points in a 2 x 2 grid */
+.discuss-list {
+    width: 100%;
+}
+
+.discuss-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    column-gap: 24px;
+    row-gap: 14px;
+    width: 100%;
+}
+
+.discuss-grid span {
+    display: block;
+    min-width: 0;
+}
+
+@media (max-width: 620px) {
+    .discuss-grid {
+        grid-template-columns: 1fr;
+        row-gap: 10px;
+    }
+}
